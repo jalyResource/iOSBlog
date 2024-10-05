@@ -1,0 +1,38 @@
+{
+    "plugins":
+    [
+        "-lunr",
+        "-search",
+        "search-pro",
+        "expandable-chapters-small",
+        "splitter",
+        "back-to-top-button",
+        "code",
+        "favicon",
+        "page-toc-button",
+        "tbfed-pagefooter"
+    ],
+    "pluginsConfig":
+    {
+        "favicon":
+        {
+            "shortcut": "assets/images/favicon.ico",
+            "bookmark": "assets/images/favicon.ico",
+            "appleTouch": "assets/images/apple-touch-icon.png",
+            "appleTouchMore":
+            {
+                "120x120": "assets/images/apple-touch-icon-120x120.png",
+                "180x180": "assets/images/apple-touch-icon-180x180.png"
+            }
+        },
+        "page-toc-button": {
+            "maxTocDepth": 2,
+            "minTocSize": 2
+        },
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &copy 版权信息",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }
+    }
+}
