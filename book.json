@@ -10,7 +10,8 @@
         "code",
         "favicon",
         "page-toc-button",
-        "tbfed-pagefooter"
+        "tbfed-pagefooter",
+        "disqus"
     ],
     "pluginsConfig":
     {
@@ -25,14 +26,20 @@
                 "180x180": "assets/images/apple-touch-icon-180x180.png"
             }
         },
-        "page-toc-button": {
+        "page-toc-button":
+        {
             "maxTocDepth": 2,
             "minTocSize": 2
         },
-        "tbfed-pagefooter": {
-            "copyright":"Copyright &copy 版权信息",
+        "tbfed-pagefooter":
+        {
+            "copyright": "Copyright &copy 版权信息",
             "modify_label": "该文件修订时间：",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "disqus":
+        {
+            "shortName": "gitbook-tutorial"
         }
     }
 }
